@@ -1,0 +1,161 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #2f3231;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.containertop{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    
+    
+}
+
+.topo {
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    overflow: hidden;
+    background-color: #2f3231;
+}
+
+
+
+.topo img{
+    display: flex;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    style: none;
+    background-color: aquamarine;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.preco{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 150px;
+    margin-top: 10px;
+    color: #07125f;
+}
+
+.botao{
+    background-color: #07125f;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.botao:hover{
+    background-color: black;
+    transition: .5s;
+}
+
+.pd{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 150px;
+    color: white;
+    margin-top: 20px;
+}
+
+.produto{
+    width: 90%;
+    height: 23%;
+    object-fit: cover;
+    background-color: #5d5d5d;
+    object-position: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    right: 50%;
+    overflow: hidden;
+    margin-left: 20px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.produto img{
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 3%;
+    border-radius: 20px;
+}
+
+.produto2{
+    width: 90%;
+    height: 23%;
+    object-fit: cover;
+    background-color: #5d5d5d;
+    object-position: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.produto2 img{
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 3%;
+    border-radius: 20px;
+}
+
+.produto3{
+    width: 90%;
+    height: 23%;
+    object-fit: cover;
+    background-color: #5d5d5d;
+    object-position: center;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.produto3 img{
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 3%;
+    border-radius: 20px;
+}
+
