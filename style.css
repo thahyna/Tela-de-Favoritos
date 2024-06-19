@@ -37,7 +37,7 @@ body{
 
 .preco{
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 150px;
+    margin-left: 300px;
     margin-top: 10px;
     color: #eeeeee;
 }
@@ -68,7 +68,7 @@ body{
 .pd{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    margin-left: 150px;
+    margin-left: 300px;
     color: white;
     margin-top: 20px;
     font-size: 18px;
@@ -87,19 +87,25 @@ body{
     overflow: hidden;
     margin-left: 20px;
     transform: translate(-50%, -50%);
-    z-index: 1;
     border-radius: 30px;
+    transition: 0.6s;
 }
 
 .produto img{
     width:700px;
-    height: auto;
+    height: 500px;
     display: flex;
     object-fit: cover;
     position: absolute;
     top: 0;
     left: 3%;
     border-radius: 20px;
+}
+
+.produto:hover{
+    height: 190px;
+    width: 1130px;
+    transition: 0.5s;
 }
 
 .produto2{
@@ -113,6 +119,7 @@ body{
     left: 50%;
     right: 50%;
     transform: translate(-50%, -50%);
+    transition: 0.6s;
     overflow: hidden;
     margin-left: 20px;
     border-radius: 30px;
@@ -129,6 +136,12 @@ body{
     border-radius: 20px;
 }
 
+.produto:hover{
+    height: 190px;
+    width: 1130px;
+    transition: 0.5s;
+}
+
 .produto3{
     width: 90%;
     height: 30%;
@@ -140,12 +153,12 @@ body{
     left: 50%;
     right: 50%;
     transform: translate(-50%, -50%);
+    transition: 0.6s;
     overflow: hidden;
     margin-left: 20px;
     border-radius: 30px;
 }
 
-/*
 .produto3 img{
     width: 100px;
     height: 100%;
@@ -157,7 +170,12 @@ body{
     left: 3%;
     border-radius: 20px;
 }
-*/
+
+.produto3:hover{
+    height: 190px;
+    width: 1130px;
+    transition: 0.5s;
+}
 
 .image-container {
     max-width: 200px;
